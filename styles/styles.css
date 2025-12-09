@@ -1,3 +1,20 @@
+:root {
+    /* background */
+    --background-main: #ffff
+    --backround-secondary: #F5F5F5;
+    --background-third: #000;
+
+    /* buttons */
+    --button-main: #8F0101
+    --button-secondary: #B81515
+
+    /* text colors */
+
+    --text-main: #222222;
+    --text-secondary: #ffffff;
+
+}
+
 *{
     margin: 0;
     padding: 0;
