@@ -13,6 +13,11 @@
     --text-main: #222222;
     --text-secondary: #ffffff;
 
+    /* fonts */
+    --tittle-weight: 700;
+    --text-weight: 400;
+    --menu-weight: 500;
+
 }
 
 *{
@@ -20,3 +25,4 @@
     padding: 0;
     box-sizing: border-box;
 }
+
