@@ -4,10 +4,12 @@
     --background-third: #000;
 
     /* buttons */
-    --button-main: #8F0101 --button-secondary: #B81515
-        /* text colors */
+    --button-main: #8F0101 
+    --button-secondary: #B81515
+      
+    /* text colors */
 
-        --text-main: #222222;
+    --text-main: #222222;
     --text-secondary: #ffffff;
 
     /* fonts */
@@ -21,4 +23,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
 }
