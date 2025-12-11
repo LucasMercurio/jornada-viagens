@@ -1,6 +1,7 @@
 :root {
     /* background */
-    --background-main: #ffff --backround-secondary: #F5F5F5;
+    --background-main: #ffff 
+    --backround-secondary: #F5F5F5;
     --background-third: #000;
 
     /* buttons */
