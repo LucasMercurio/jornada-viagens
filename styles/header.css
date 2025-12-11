@@ -41,4 +41,32 @@ nav {
 .nav-link li a{
     color: var(--text-secondary);
     text-decoration: none;
+    font-weight: var(--menu-weight);
+    font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-menu {
+        margin-top: 0;
+        width: 467px;
+    }
+    .nav-menu label {
+        display: none;
+    }
+
+    .nav-menu nav{
+        display: block;
+    }
+
+    .nav-menu ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 16px;
+        
+    }
+
+    .nav-menu li {
+        margin: 0;
+    }
 }
