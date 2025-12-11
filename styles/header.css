@@ -47,6 +47,7 @@ nav {
 }
 
 .nav-link li a{
+    display: inline-block;
     color: var(--text-secondary);
     text-decoration: none;
     font-weight: var(--menu-weight);
@@ -101,6 +102,7 @@ nav {
 
     .nav-menu a:hover {
         color: #B81515;
+        transform: translateY(-3px);
         transition: 0.3s ease;
     }
 }

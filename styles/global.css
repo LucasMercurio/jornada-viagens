@@ -48,9 +48,30 @@ body {
     display: block;
 }
 
+.button {
+    display: inline-block;
+    width: 260px;
+    height: 64px;
+    color: var(--text-secondary);
+    font-weight: var(--title-weight);
+    font-size: 20px;
+    background-color: var(--color-main);
+    border-radius: 16px;
+    text-decoration: none;
+    line-height: 64px;
+}
+
 /* MEDIA QUERY */
 @media screen and (min-width: 768px) {
     .section-title h2 {
         font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .button:hover{
+        background-color: var(--color-secondary);
+        transform: translateY(-3px);
+        transition: 0.3s ease;
     }
 }
