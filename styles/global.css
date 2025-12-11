@@ -1,15 +1,14 @@
 :root {
     /* background */
-    --background-main: #ffff 
+    --background-main: #ffff;
     --backround-secondary: #F5F5F5;
     --background-third: #000;
 
     /* buttons */
-    --button-main: #8F0101 
-    --button-secondary: #B81515
-      
-    /* text colors */
+    --color-main: #8F0101;
+    --color-secondary: #B81515;
 
+    /* text colors */
     --text-main: #222222;
     --text-secondary: #ffffff;
 
@@ -17,15 +16,41 @@
     --tittle-weight: 700;
     --text-weight: 400;
     --menu-weight: 500;
-
 }
 
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+/* GLOBAL */
+body {
     font-family: "Montserrat", sans-serif;
+    color: var(--text-main);
+}
+
+/* SECTION TITLE */
+.section-title h2 {
+    font-size: 28px;
+    font-weight: var(--tittle-weight);
+    margin: 0;
+    text-align: center;
+}
+
+.section-title hr {
+    width: 180px;
+    height: 4px;
+    background: var(--color-secondary);
+    border: none;
+    margin: 26px auto 32px;
+    display: block;
+}
+
+/* MEDIA QUERY */
+@media screen and (min-width: 768px) {
+    .section-title h2 {
+        font-size: 32px;
+    }
 }
