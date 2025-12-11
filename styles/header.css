@@ -1,31 +1,31 @@
-header {
+body header {
     background-color: var(--background-third);
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 38px 48px ;
+    padding: 38px 48px;
     position: relative;
 }
 
-.logo{
+.logo {
     display: inline-block;
     width: 68px;
     height: 64px;
 }
 
-.logo-mobile{
+.logo-mobile {
     display: block;
 }
 
-.logo-desktop{
+.logo-desktop {
     display: none;
 }
 
-.menu{
+.menu {
     margin-top: 24px;
 }
 
-input[type="checkbox"]:checked ~ nav {
+input[type="checkbox"]:checked~nav {
     display: block;
     position: absolute;
     top: 100%;
@@ -38,15 +38,15 @@ nav {
     display: none;
 }
 
-.nav-link{
+.nav-link {
     list-style: none;
 }
 
-.nav-link li{
+.nav-link li {
     margin: 16px 0;
 }
 
-.nav-link li a{
+.nav-link li a {
     display: inline-block;
     color: var(--text-secondary);
     text-decoration: none;
@@ -59,20 +59,21 @@ nav {
         margin-top: 0;
         width: 467px;
     }
+
     .nav-menu label {
         display: none;
     }
 
-    .nav-menu nav{
+    .nav-menu nav {
         display: block;
     }
 
-    .nav-menu ul{
+    .nav-menu ul {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding-top: 16px;
-        
+
     }
 
     .nav-menu li {
