@@ -34,7 +34,7 @@ body {
 /* SECTION TITLE */
 .section-title h2 {
     font-size: 28px;
-    font-weight: var(--tittle-weight);
+    font-weight: var(--title-weight);
     margin: 0;
     text-align: center;
 }
@@ -69,7 +69,7 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
-    .button:hover{
+    .button:hover {
         background-color: var(--color-secondary);
         transform: translateY(-3px);
         transition: 0.3s ease;
