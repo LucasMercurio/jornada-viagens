@@ -6,7 +6,7 @@
   margin-bottom: 24px;
 }
 
-.card {
+.offers .card {
   color: var(--text-secondary);
   width: 312px;
   height: 288px;
@@ -17,25 +17,25 @@
   text-align: center;
 }
 
-.card div {
+.offers .card div {
   display: block;
   position: static;
   padding: 0;
   margin-bottom: 24px;
 }
 
-.card div p {
+.offers .card div p {
   font-size: 20px;
   font-weight: var(--text-weight);
 }
 
-.card div h3 {
+.offers .card div h3 {
   font-size: 40px;
   font-weight: var(--title-weight);
   margin: 8px 0 0;
 }
 
-.card div h4 {
+.offers .card div h4 {
   font-size: 32px;
   font-weight: var(--title-weight);
   margin-top: 24px;
@@ -78,30 +78,30 @@
 
 @media screen and (min-width: 1024px) {
 
-  .card {
+  .offers .card {
     width: 410px;
     height: 308px;
   }
 
-  .card div h3 {
+  .offers .card div h3 {
     font-size: 48px;
   }
 
-  .card div h4 {
+  .offers .card div h4 {
     font-size: 40px;
   }
 
 }
 
 @media screen and (min-width: 1440px) {
-  .card {
+  .offers .card {
     width: 624px;
     height: 328px;
   }
 }
 
 @media screen and (min-width: 1920px) {
-  .card {
+  .offers .card {
     width: 700px;
     height: 328px;
   }
