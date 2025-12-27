@@ -1,7 +1,7 @@
 .hero-img {
   height: 400px;
   width: 100%;
-  background: url(../img/hero.png) no-repeat;
+  background: url(../assets/hero.png) no-repeat;
   background-size: cover;
 }
 
@@ -17,7 +17,7 @@
   .hero-img {
     height: 620px;
     width: 100%;
-    background: url(../img/hero-tablet.png) no-repeat;
+    background: url(../assets/hero-tablet.png) no-repeat;
     background-size: cover;
   }
 
@@ -32,7 +32,7 @@
 
 @media screen and (min-width: 1024px) {
   .hero-img {
-    background: url(../img/hero-tablet.png) no-repeat;
+    background: url(../assets/hero-tablet.png) no-repeat;
     background-size: cover;
   }
 
@@ -47,7 +47,7 @@
 
 @media screen and (min-width: 1280px) {
   .hero-img {
-    background: url(../img/hero-desktop.png) no-repeat;
+    background: url(../assets/hero-desktop.png) no-repeat;
     background-size: cover;
   }
 
