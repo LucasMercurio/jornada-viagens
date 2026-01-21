@@ -1,0 +1,76 @@
+.payments .image-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    height: 460px;
+    margin-top: 24px;
+    width: 100%;
+}
+
+.payments .content-container .image-gallery .image.first {
+    background: url(../img/bags-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .content-container .image-gallery .image.second {
+    background: url(../img/passport-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .content-container .image-gallery .image.third {
+    background: url(../img/people-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .content-container .image-gallery .image.colspan-2 {
+    grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+    .payments .content-container .image-gallery .image.first {
+        background: url(../img/bags-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    .payments .content-container .image-gallery .image.second {
+        background: url(../img/passport-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    .payments .content-container .image-gallery .image.third {
+        background: url(../img/people-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .payments .content-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .payments .content-container .text-content {
+        width: 360px;
+    }
+
+    .payments .content-container .image-gallery {
+        width: 790px;
+        margin: 0;
+    }
+
+    .payments .content-container .image-gallery .image.first {
+        background: url(../img/bags-desktop.png) no-repeat;
+        background-size: cover;
+    }
+
+    .payments .content-container .image-gallery .image.second {
+        background: url(../img/passport-desktop.png) no-repeat;
+        background-size: cover;
+    }
+
+    .payments .content-container .image-gallery .image.third {
+        background: url(../img/people-desktop.png) no-repeat;
+        background-size: cover;
+    }
+}
