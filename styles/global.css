@@ -16,6 +16,8 @@
     --title-weight: 700;
     --text-weight: 400;
     --menu-weight: 500;
+
+
 }
 
 /* RESET */
@@ -46,6 +48,17 @@ body {
     border: none;
     margin: 26px auto 32px;
     display: block;
+}
+
+.content-title {
+    font-size: 28px;
+    font-weight: var(--title-weight);
+}
+
+.content-text {
+    font-size: 20px;
+    font-weight: var(--text-weight);
+    line-height: 32px;
 }
 
 .button {
